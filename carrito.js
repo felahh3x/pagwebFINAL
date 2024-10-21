@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     renderCart();
                     const pagoModal = bootstrap.Modal.getInstance(document.getElementById('pagoModal'));
                     pagoModal.hide();
-                    window.location.href = 'principal.html'; // Redirige a la página principal
+                    window.location.href = 'index.html'; // Redirige a la página principal
                 }
             });
         }
